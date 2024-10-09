@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Accueil.unity
+    guid: 20323552b1e94415fa6bd7ee8aeadbdc
+  - enabled: 1
+    path: Assets/Scenes/Teleportation.unity
+    guid: aa94472bc627e3e4bac568f0ac96c1b1
+  - enabled: 1
+    path: Assets/Scenes/Mouvement.unity
+    guid: 847c382d419cb4647a00c3c8c142be8b
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5f2e83c125fecf649b487fbe7eaca4bf, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 80f105299aba1b5468068c4aced859cc, type: 2}
