@@ -557,7 +557,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1051594374}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: ChangeSceneToTeleportation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -690,7 +690,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1051594374}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_MethodName: ChangeSceneToMouvement
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1959,7 +1959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8af655a9b65d741be5fd0cc2748596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Teleportation: 
 --- !u!1 &1118194907
 GameObject:
   m_ObjectHideFlags: 0

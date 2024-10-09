@@ -4,14 +4,14 @@ using UnityEngine.UI;
 
 public class SceneManagement : MonoBehaviour
 {
-    public void ChangeScene(Teleportation)
+    public void ChangeSceneToTeleportation()
     {
         
         SceneManager.LoadScene("Teleportation");
 
     }
 
-    public void ChangeScene(Mouvement)
+    public void ChangeSceneToMouvement()
     {
         
         SceneManager.LoadScene("Mouvement");
