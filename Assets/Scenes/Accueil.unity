@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 43649070}
   serializedVersion: 2
   m_LocalRotation: {x: 0.55621773, y: -0, z: -0, w: 0.8310366}
-  m_LocalPosition: {x: 0, y: 8.82, z: 0.56}
+  m_LocalPosition: {x: 0.03, y: 4.14, z: 2.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,7 +167,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.49411768, g: 0.6431373, b: 0.72156864, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 12.54
   m_Range: 10
   m_SpotAngle: 69.2
   m_InnerSpotAngle: 21.80208
@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: -8309319643020345216, guid: 7ab6f3b0fd1a6ba41b2a47766c16613f, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -963,7 +963,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5000
+  m_ColorTemperature: 4788
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
