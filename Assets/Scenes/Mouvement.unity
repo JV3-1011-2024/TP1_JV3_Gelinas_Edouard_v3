@@ -378,6 +378,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 34037318}
+    - targetCorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 34037314}
     - targetCorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
       insertIndex: -1
@@ -503,6 +506,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &34037318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34037313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0154, y: 0.023598537, z: 0.014231617}
+  m_Center: {x: 0, y: 0.011799283, z: -0.0004474092}
 --- !u!1001 &35195963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6728,7 +6752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &900298879
 Transform:
   m_ObjectHideFlags: 0
