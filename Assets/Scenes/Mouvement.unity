@@ -2936,6 +2936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 310720086}
   sonCleDansSerrure: {fileID: 8300000, guid: 25ef331873e4a304194e52d8705a7a03, type: 3}
+  porteAnimator: {fileID: 1895949557}
 --- !u!1001 &318174835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11699,6 +11700,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2474167371185856612, guid: e0b2491dfd0bb9d4c9007eb87e252f4b, type: 3}
   m_PrefabInstance: {fileID: 1529554996}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1542001354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5721723476799238222, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
+  m_PrefabInstance: {fileID: 1895949552}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1548096894
 GameObject:
   m_ObjectHideFlags: 0
@@ -13365,13 +13371,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7936834669806457470, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 310720081}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5721723476799238222, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1895949557}
   m_SourcePrefab: {fileID: 100100000, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
 --- !u!4 &1895949553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7936834669806457470, guid: 4adae8232505e0e45b64cc3b61e9d9e1, type: 3}
   m_PrefabInstance: {fileID: 1895949552}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1895949557
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542001354}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1127e17ce17569b4a9c6adc0791fc4b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1902883137
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ public class Serrure : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip sonCleDansSerrure;
     private bool cleInseree = false;
+    public Animator porteAnimator;
 
     void Start()
     {
@@ -26,5 +27,6 @@ public class Serrure : MonoBehaviour
     {
         audioSource.PlayOneShot(sonCleDansSerrure);
         cleInseree = true;
+        porteAnimator.SetBool("isOpened", true);
     }
 }
