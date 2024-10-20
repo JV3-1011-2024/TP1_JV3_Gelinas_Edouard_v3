@@ -384,7 +384,7 @@ PrefabInstance:
       addedObject: {fileID: 34037319}
     - targetCorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 34037314}
+      addedObject: {fileID: 34037320}
     - targetCorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 34037315}
@@ -399,20 +399,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2910705359587567475, guid: ece756ae074c54640b47689afb5593f2, type: 3}
   m_PrefabInstance: {fileID: 34037311}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &34037314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34037313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 496166fea09a97b47b34d49af0aef823, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roomLight: {fileID: 900298881}
-  switchSound: {fileID: 8300000, guid: 97217acb46d16454b85d3c99f089929c, type: 3}
 --- !u!82 &34037315
 AudioSource:
   m_ObjectHideFlags: 0
@@ -580,7 +566,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 34037320}
+        m_TargetAssemblyTypeName: LightSwitchScript, Assembly-CSharp
+        m_MethodName: ToggleLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -632,6 +630,20 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &34037320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34037313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9cf709c256648440ad1044bba140da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomLight: {fileID: 900298881}
+  switchSound: {fileID: 8300000, guid: 97217acb46d16454b85d3c99f089929c, type: 3}
 --- !u!1001 &35195963
 PrefabInstance:
   m_ObjectHideFlags: 0
